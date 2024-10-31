@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'kanit';
+    src: url(fonts/Kanit-Regular.ttf);
+}
+
+:root{
+    --cor1:#6d263e;
+    --cor2:#914c64;
+    --cor3:#b6728a;
+    --cor4:#da99af;
+    --cor5:#ffbfd5;
+
+    --fonte-padrao: 'poppins';
+    --fonte-titulo: 'kanit';
+}   
