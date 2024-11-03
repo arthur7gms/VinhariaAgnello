@@ -1,0 +1,172 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Navbar */
+  @font-face {
+    font-family: 'poppins';
+    src: url(fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'kanit';
+    src: url(fonts/Kanit-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'letra';
+    src: url(fonts/Tangerine-Regular.ttf);
+}
+
+:root {
+    --cor1: #6d263e;
+    --cor2: #914c64;
+    --cor3: #b6728a;
+    --cor4: #da99af;
+    --cor5: #ffbfd5;
+
+    --fonte-padrao: 'poppins';
+    --fonte-titulo: 'kanit';
+    --fonte-letra-cursiva: 'letra';
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor1);
+    padding: 20px 40px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.texto {
+    font-size: 3em;
+    font-family: var(--fonte-letra-cursiva);
+    color: #fff;
+}
+
+.left > a {
+    text-decoration: none;
+    color: #000;
+    font-family: var(--fonte-padrao);
+    font-size: 1.1em;
+}
+
+.navimage {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.right {
+    display: flex;
+}
+
+.right .itens {
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.right .itens:hover {
+    color: var(--cor5);
+    background-color: #ffc0d583;
+    transition-duration: 0.5s;
+}
+
+/* Estilo para o restante do conteúdo principal */
+
+  /* Seção de introdução */
+  .intro {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .intro-text {
+    flex: 2;
+    padding-right: 20px;
+  }
+  
+  .intro-text h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .intro-text p {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
+  .intro-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .intro-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Seção de parceiros */
+  .partners {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .partners h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .partners p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .partners-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .partners-images img {
+    width: 45%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
