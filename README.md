@@ -1,24 +1,21 @@
-Vinheria-Agnello/
-│
-├── index.html             # Página principal do site
-├── SobreNos.html          # Página sobre a empresa
-├── vinhos.html            # Página de vinhos disponíveis
-├── contato.html           # Página de contato
-│
-├── images/                # Diretório contendo imagens utilizadas no site
-│   ├── grape-removebg-preview.png
-│   ├── pexels-asphotograpy-95960.jpg
-│   ├── pexels-marketingtuig-87224.jpg
-│   ├── Untitled.png
-│   ├── vale1.png
-│   ├── guaspari2.png
-│   ├── cave1.png
-│   ├── vinho1.png
-│   └── 123.png
-│
-├── fonts/                 # Diretório contendo fontes utilizadas
-│   ├── Poppins-Medium.ttf
-│   ├── Kanit-Regular.ttf
-│   └── Tangerine-Regular.ttf
-│
-└── style.css              # Folha de estilos do site
+# Vinheria Agnello
+
+## Descrição
+Este é um projeto de site para a Vinheria Agnello, que apresenta uma variedade de vinhos, promoções e informações sobre a vinheria.
+
+## Funcionalidades
+- Carrossel de imagens para destaque de vinhos
+- Seção de vinhos em promoção
+- Listagem de tipos de vinhos disponíveis
+
+## Tecnologias Utilizadas
+- HTML
+- CSS
+- JavaScript (se aplicável)
+
+## Como Usar
+1. Clone o repositório ou faça o download dos arquivos.
+2. Abra o arquivo `index.html` em um navegador web.
+
+## Licença
+Este projeto está licenciado sob a MIT License.
