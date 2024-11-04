@@ -1,0 +1,227 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'kanit';
+    src: url(fonts/Kanit-Regular.ttf);
+}
+@font-face {
+    font-family: 'letra';
+    src: url(fonts/Tangerine-Regular.ttf);
+}
+:root{
+    --cor1:#6d263e;
+    --cor2:#914c64;
+    --cor3:#b6728a;
+    --cor4:#da99af;
+    --cor5:#ffbfd5;
+
+    --fonte-padrao: 'poppins';
+    --fonte-titulo: 'kanit';
+    --fonte-letra-cursiva: 'letra';
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:var(--cor1);
+    padding: 20px 40px 20px 40px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+}
+.texto{
+    font-size: 3em;
+    font-family: var(--fonte-letra-cursiva);
+}
+.left > a{
+    text-decoration: none;
+    color:#000;
+    font-family: 'poppins';
+    margin: auto;
+    font-size: 1.1em;
+}
+.navimage{
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+}
+.text-nav{
+    font-family: 'poppins';
+    text-decoration: none;
+    color: black;
+}
+.navbar .right a{
+    margin-left: 20px;
+}
+
+.itens{
+    text-decoration: none;
+    padding: 10px;
+    color:#000;
+    font-family: 'poppins';
+    margin: auto;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+.itens:hover{
+    color: #ffbfd5;
+    background-color: #ffc0d583;
+    transition-duration: 0.5s;
+}
+
+/*MAIN!!!*/
+main{
+    padding-bottom: 50px;
+    background-color: var(--cor5)
+
+}
+/* Navbar */
+footer{
+    text-align: center;
+    background-color: #6d263e;
+    font-family: var(--fonte-padrao);
+    padding: 10px;
+}
+#title-under{
+    font-size: 2em;
+    font-family: var(--fonte-letra-cursiva);
+    padding: 5px;
+}
+.navfooter{
+    padding-top: 20px;
+}
+.navfooters{
+    text-decoration: none;
+    color: #b6728a;
+    margin-right: 20px;
+    padding: 4px;
+}
+.navfooters:hover{
+    color: #000;
+    background-color: rgba(0, 0, 0, 0.144);
+    padding: 4px;
+    transition-duration: 0.6s;
+    border-radius: 5px;
+}
+
+/*Vinhos*/
+
+.title{ 
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    font-size: 2em;
+    padding: 20px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-container>div{
+    background-color: var(--cor5);
+    margin: 0px 100px 0px 100px;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.flex-container>div:hover{
+    background-color: var(--cor4);
+    transition-duration: 0.6s;
+    transform: scale(1.10);
+    animation-name: color_change;
+    animation-duration: 1s;
+}
+
+.wines{
+    width: 100%;
+    height: 200px;
+}
+
+.wines:hover{
+    transition-duration: 0.6s;
+    transform: rotate(10deg) scale(1.15);
+}
+
+.underlist {
+    font-family: poppins;
+    font-size: small;
+    padding: 10px;
+    text-align: center; 
+    border-radius: 30px;
+    height: 75px;
+    margin: 25px;
+}
+
+.underlist:hover{
+    transition-duration: 0.6s;
+    transform: scale(1.10);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.wine_name {
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    font-size: medium;
+}
+
+
+.price {
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    font-size: x-large;
+}
+
+.buy {
+    background-color: #be0602;
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    border-radius: 10px;
+    height: 40px;
+    font-size: x-large;
+}
+
+.buy:hover {
+    background-color: var(--cor5);
+    transition-duration: 0.6s;
+    position: relative;
+    transform: scale(1.10);
+}
+
+.cart{
+    vertical-align: middle;
+}
+
+.buy:hover .cart{
+    animation-name: cart_move;
+    animation-duration: 3s;
+    transform: scale(1.10);
+}
+
+@keyframes cart_move {
+    from{transform: translateX(-80px)}
+    to{transform: translateX(80px)}
+}
+
+@keyframes color_change {
+    0% {background-color: #da99af;}
+    10% {background-color: var(--cor2);}
+    100% {background-color: var(--cor4);}
+}
