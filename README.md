@@ -11,11 +11,7 @@ Este é um projeto de site para a Vinheria Agnello, que apresenta uma variedade 
 ## Tecnologias Utilizadas
 - HTML
 - CSS
-- JavaScript (se aplicável)
 
 ## Como Usar
 1. Clone o repositório ou faça o download dos arquivos.
 2. Abra o arquivo `index.html` em um navegador web.
-
-## Licença
-Este projeto está licenciado sob a MIT License.
